@@ -374,6 +374,26 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	margin-bottom: 50px;
 }
+
+#portfoliowrap .desc {
+	margin: 0;
+  padding: 0;
+}
+#portfoliowrap .project {
+  border: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  padding: 20% 5%;
+}
+#portfoliowrap .row {
+  margin: 0;
+}
+
+#portfoliowrap .project-wrapper{
+      padding: 30px 20px 10px;
+}
+
 .mt {
 	margin-top: 50px;
 }
