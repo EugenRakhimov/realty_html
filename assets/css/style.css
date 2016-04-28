@@ -293,10 +293,26 @@ h1, h2, h3, h4, h5, h6 {
 
 /* home-middle */
 
-.home-middle {
+#home-middle {
     padding: 50px 20px;
     word-wrap: break-word;
+    font-size: 20px;
 }
+#home-middle h2{
+  color: #343c3e;
+  font-family: "effra",sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 10px;
+  text-align: center;
+  color: #333333;
+  font-size: 40px;
+}
+#home-middle p {
+  text-align: left;
+  margin-bottom: 0px;
+}
+
 .name {
 	text-align: center;
 }
@@ -324,12 +340,16 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: 73px 17px;
 }
 
-.name-desc h2 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 40px;
-	line-height: 1.45;
-	font-weight: 300;
+.center-icon{
+  text-align: center;
+  text-align: -webkit-center;
+  width:85px;
+  height:85px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 12px;
 }
+
 
 /* Separator About - Parallax Section */
 .sep {
