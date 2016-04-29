@@ -549,7 +549,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/cta_bar_3.jpg);
+}
+.contact h2{
+  color: #ffffff;
+  font-family: "effra",sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 10px;
+  font-size: 36px;
 }
 
 #contactwrap label {
@@ -659,4 +667,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .desc {
 	margin-top: 25px;
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+#appraisal {
+  color: #ffffff;
+
+}
+.appraisal {
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  height: 85%;
+}
+.appraisal a {
+    background-color: #ed1b25;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    width: auto;
 }
