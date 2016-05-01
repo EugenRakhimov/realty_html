@@ -778,5 +778,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 #contact-map {
   margin-top: 28px;
-
+}
+.navbar-brand {
+  float: left;
+  min-height: 63px;
+  width: 350px;
+}
+.navbar-brand {
+  background: url(../img/cropped-HEADER.png) no-repeat !important;
+  background-size: contain !important;
+  text-indent: -9999px;
+}
+.navbar-brand, .navbar-brand:hover {
+    color: #fff !important;
+    text-decoration: none;
+    -webkit-transition: all, 0.1s, ease-in-out;
+    -moz-transition: all, 0.1s, ease-in-out;
+    transition: all, 0.1s, ease-in-out;
 }
