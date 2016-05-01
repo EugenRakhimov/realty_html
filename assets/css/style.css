@@ -699,3 +699,80 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
 
 }
+#contactwrap h5, h6 {
+    color: #ffffff;
+    font-family: "effra",sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+#contactwrap p {
+  font-size: 16px;
+  margin-bottom: 28px;
+  color: #7b7b7b;
+}
+ #contactwrap a {
+    color: #ed1b25;
+ }
+ #contactwrap h4 {
+   color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: "effra",sans-serif;
+    font-size: 18px;
+    padding-bottom: 18px;
+    line-height: 1.2;
+ }
+ .social-icons {
+   margin-bottom: 0;
+   padding-left: 0;
+   float: left;
+   text-align: left;
+   font-size: 16px;
+   font-weight: 300;
+   font-family: "effra", sans-serif;
+ }
+ .social-icons li {
+    background: none !important;
+    border: none !important;
+    float: left;
+    list-style-type: none !important;
+    margin: 0 6px 12px !important;
+    padding: 0 !important;
+}
+
+.social-icons  ul li a, .social-icons ul li a:hover {
+    background-color: #272727 !important;
+    border-radius: 3px;
+    color: #ffffff !important;
+    border: 0px #272727 solid !important;
+    font-size: 18px;
+    padding: 9px;
+}
+
+.social-icons  ul li a {
+    border: none !important;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: inline-block;
+    font-family: 'ssi-icomoon';
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    line-height: 1em;
+    speak: none;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: none !important;
+    width: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.social-icons i {
+  color: white;
+}
