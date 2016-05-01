@@ -796,3 +796,57 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transition: all, 0.1s, ease-in-out;
     transition: all, 0.1s, ease-in-out;
 }
+.navbar {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 143px;
+   z-index: 9999;
+   -webkit-transition: all, 0.2s, ease-in-out;
+   -moz-transition: all, 0.2s, ease-in-out;
+   transition: all, 0.2s, ease-in-out;
+   padding: 30px 0;
+   margin-left: 5%;
+   margin-right: 2%;
+ }
+ .navbar-collapse {
+   max-width: 90%;
+ }
+
+.dropdown {
+    color: #000;
+    font-weight: 700;
+    font-family: "effra",sans-serif;
+    font-size: 0.727272em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    -webkit-transition: all, 0.2s, ease-in-out;
+    -moz-transition: all, 0.2s, ease-in-out;
+    transition: all, 0.2s, ease-in-out;
+}
+.dropdown-toggle {
+  color: white !important;
+}
+.dropdown-toggle:hover {
+  color:red;
+}
+.navbar-inverse {
+  height: 83px;
+  margin: 0;
+  padding-left: 6%;
+  padding-top: 1%;
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .dropdown {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+.navbar-inverse .dropdown-toggle, .navbar-inverse .navbar-collapse{
+  padding-right: 0px;
+}
+.navbar-inverse .navbar-brand{
+  width: 200px;
+  padding: 0;
+}
